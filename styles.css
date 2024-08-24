@@ -22,6 +22,7 @@ header {
     padding: 10px 0;
     text-align: center;
     height: 150px;
+    border: 1px solid #585858;
 }
 
 nav ul {
@@ -86,6 +87,7 @@ p {
 }
 
 .hero {
+    text-align: center;
     background-color: #ffffff;
     border: 1px solid #000000;
     padding: 20px;
@@ -98,6 +100,11 @@ p {
 .hero img {
     width: 100%;
     height: auto;
+    transition: transform 0.3s ease;
+}
+
+.hero img:hover {
+transform: scale(1.1);
 }
 
 .hero h2 {
@@ -110,17 +117,13 @@ p {
     color: #000000;
     text-align: justify;
 }
-h3 {
-    text-align: center;
-    color: rgb(255, 0, 0);
-}
 
 .info-box {
     background-color: #ffffff;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.1);
     text-align: center;
     border: 1px solid #000000;
 }
@@ -130,5 +133,15 @@ footer {
     color: #ffffff;
     padding: 20px;
     text-align: center;
-    border-top: 1px solid #ffffff;
+    border-top: 1px solid #585858;
+}
+
+.logo-zoom {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.logo-zoom:hover {
+    transform: scale(1.1);
 }
