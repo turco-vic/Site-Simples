@@ -92,7 +92,7 @@ p {
     border: 1px solid #000000;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 2px 2px 2px 2px rgba(255, 255, 255, 0.295);
+    box-shadow: 2px 2px 2px 2px rgba(58585);
     width: calc(25% - 20px);
     box-sizing: border-box;
 }
@@ -144,4 +144,13 @@ footer {
 
 .logo-zoom:hover {
     transform: scale(1.1);
+}
+
+.sobreperfil{
+    width: 400px;
+    border-radius: 50%;
+    border: 1px solid #000000;
+    box-shadow: 10px 10px 10px #585858;
+    display: block; 
+    margin: 0 auto;
 }
